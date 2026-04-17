@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.env
+*.pyc
+*.pyo
+*.pyd
+*.md
+.DS_Store
+coverage.xml
+htmlcov/
+data/rlhf_feedback.jsonl
+artifacts/churn_model.json
+artifacts/reward_model.json
+artifacts/rag_eval_results.json

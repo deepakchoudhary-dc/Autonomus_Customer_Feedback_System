@@ -105,3 +105,10 @@ make evaluate-rag
 - Runtime secrets are loaded from .env and excluded from version control.
 - Derived model artifacts and RLHF raw feedback stores are ignored in .gitignore.
 - Use .env.example as the only committed environment configuration reference.
+
+To run the full live application error-free, someone must:
+
+Start the Docker containers (docker compose up -d) OR manually start local Postgres, Redis, Zookeeper, and Kafka services on Windows.
+Edit their .env file to replace the placeholder API keys with real OpenAI and Pinecone API keys.
+
+This project is a base to build something so that we can take a deep look at the customer feedback. There are still many things to set up to make the project work. While is the strong foundation, one can making certain changes to make it more effective in Real- Time enviroment.
